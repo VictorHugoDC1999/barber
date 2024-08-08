@@ -7,7 +7,7 @@ import { Card, CardContent } from './_components/ui/card'
 import { db } from './_lib/prisma'
 import BarbershopItem from './_components/BarbershopItem'
 import { quickSearchOptions } from './_constants/search'
-import BookingItem from './_components/BarbershopItem/BookingItem'
+import BookingItem from './_components/BookingItem'
 
 // TODO: receber agendamento como Prop
 const Home = async () => {
